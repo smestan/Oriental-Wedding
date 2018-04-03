@@ -1,0 +1,40 @@
+
+$main-font: Helvetica, sans-serif;
+$main-font-size: 16px;
+$fancy-font: 'Lobster', cursive;
+$text-shadow:  1px 1px black;
+$fancy-color: #dadada;
+
+
+body{
+    font-family: $fancy-font;
+    font-size: $main-font-size;
+    text-shadow: $text-shadow;
+    color: $fancy-color;
+}
+#bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+}
+#bg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+}
+#headmenu{
+    ul{
+        li{
+            a{
+                color: $fancy-color
+            }
+        }
+    }
+}
